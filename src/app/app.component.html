@@ -1,9 +1,9 @@
 <!-- nav -->
 <nav class="navbar navbar-expand">
 	<div class="navbar-nav">
-		<a class="nav-item nav-link" href="#">Heather Frank</a>
-		<a class="nav-item nav-link" href="#">Portfolio</a>
-		<a class="nav-item nav-link" href="#">Resume</a>
+		<a class="nav-item nav-link" routerLink="/">Heather Frank</a>
+		<a class="nav-item nav-link" routerLink="/portfolio">Portfolio</a>
+		<a class="nav-item nav-link" routerLink="/resume">Resume</a>
 	</div>
 </nav>
 
@@ -12,7 +12,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-8 offset-sm-2">
-				Content Here
+				<router-outlet></router-outlet>
 			</div>
 		</div>
 	</div>
